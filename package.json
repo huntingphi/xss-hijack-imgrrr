@@ -1,0 +1,29 @@
+{
+  "name": "xss-hijack-imgrrr",
+  "version": "1.0.0",
+  "description": "Captures user cookies transmitted via stored XSS and then performs a purchase on behalf of the user whos cookies have been captured.",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlljet002/xss-hijack-imgrrr.git"
+  },
+  "author": "jjm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mlljet002/xss-hijack-imgrrr/issues"
+  },
+  "homepage": "https://github.com/mlljet002/xss-hijack-imgrrr#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-config-google": "^0.11.0"
+  }
+}
